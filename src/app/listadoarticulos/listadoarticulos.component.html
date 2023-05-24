@@ -1,0 +1,12 @@
+<table border = "1" >
+    <tr>
+        <td>producto</td><td>color</td><td>precio</td><td>camaras</td><td>pantalla</td>
+    </tr>
+    <tr *ngFor="let indice of productos">
+        <td>{{indice.producto}}</td>
+        <td>{{indice.color}}</td>
+        <td>{{indice.precio}}</td>
+        <td>{{indice.camaras}}</td>
+        <td>{{indice.pantalla}}</td>
+    </tr>
+</table>
